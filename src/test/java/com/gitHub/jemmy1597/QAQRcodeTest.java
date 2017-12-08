@@ -30,4 +30,17 @@ public class QAQRcodeTest {
         Assert.assertEquals(0 , temp);
 
     }
+
+    @Test
+    public void haha2() throws Exception {
+        ////////////第一階段
+        QAQRcode qaq = new QAQRcode();
+
+        ///////////第二階段
+        int temp = qaq.haha(2);
+
+        /////////第三階段
+        Assert.assertEquals(-1 , temp);
+
+    }
 }
