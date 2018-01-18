@@ -31,7 +31,7 @@ public class Swing extends JFrame {
 		JButton panel_ON = new JButton("吸音板啟動");
 		JButton panel_OFF = new JButton("吸音板關閉");
 		
-		JLabel lb1 = new JLabel("功能列表");
+		JLabel lb1 = new JLabel("Function");
 		JLabel lb2 = new JLabel("狀態監視窗");
 		/*****************宣告元件********************/
 		/*****************監聽器********************/
