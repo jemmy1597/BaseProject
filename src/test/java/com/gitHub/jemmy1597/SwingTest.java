@@ -4,7 +4,7 @@ import org.junit.Test;
 public class SwingTest {
 
 	@Test
-	public void testTimeSet() throws Exception {
+	public void testTimeSet() {
 		Swing sw = new Swing();
 		int temp = sw.getcustom_time();
 		sw.timeSet("100");
@@ -18,7 +18,7 @@ public class SwingTest {
 	}
 
 	@Test
-	public void testDbSet() throws Exception {
+	public void testDbSet() {
 		Swing sw = new Swing();
 		int temp = sw.getcustom_db();
 		sw.dbSet("-1");
